@@ -2,9 +2,13 @@
 // This file SHOULD be checked into source version control.
 // This file is automatically updated during development when running `dev.ts`.
 
-import * as $$$$$$$$$$$0 from "./apps/deco/blog.ts";
-import * as $$$$$$$$$$$1 from "./apps/deco/htmx.ts";
-import * as $$$$$$$$$$$2 from "./apps/site.ts";
+import * as $$$$$$$$$$$0 from "./apps/deco/analytics.ts";
+import * as $$$$$$$$$$$1 from "./apps/deco/blog.ts";
+import * as $$$$$$$$$$$2 from "./apps/deco/htmx.ts";
+import * as $$$$$$$$$$$3 from "./apps/deco/sap.ts";
+import * as $$$$$$$$$$$4 from "./apps/deco/streamshop.ts";
+import * as $$$$$$$$$$$5 from "./apps/deco/vtex.ts";
+import * as $$$$$$$$$$$6 from "./apps/site.ts";
 import * as $$$$$$0 from "./sections/BlogPost.tsx";
 import * as $$$$$$1 from "./sections/BlogPosts.tsx";
 import * as $$$$$$2 from "./sections/Faq.tsx";
@@ -32,9 +36,13 @@ const manifest = {
     "site/sections/Theme/Theme.tsx": $$$$$$10,
   },
   "apps": {
-    "site/apps/deco/blog.ts": $$$$$$$$$$$0,
-    "site/apps/deco/htmx.ts": $$$$$$$$$$$1,
-    "site/apps/site.ts": $$$$$$$$$$$2,
+    "site/apps/deco/analytics.ts": $$$$$$$$$$$0,
+    "site/apps/deco/blog.ts": $$$$$$$$$$$1,
+    "site/apps/deco/htmx.ts": $$$$$$$$$$$2,
+    "site/apps/deco/sap.ts": $$$$$$$$$$$3,
+    "site/apps/deco/streamshop.ts": $$$$$$$$$$$4,
+    "site/apps/deco/vtex.ts": $$$$$$$$$$$5,
+    "site/apps/site.ts": $$$$$$$$$$$6,
   },
   "name": "site",
   "baseUrl": import.meta.url,
